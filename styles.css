@@ -1,0 +1,149 @@
+/* ======== القواعد العامة ======== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* ======== Navbar ======== */
+.navbar {
+    background-color: #6a0dad;
+    padding: 15px 0;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #d1a3ff !important;
+}
+
+/* ======== Header ======== */
+header {
+    background: linear-gradient(to right, #6a0dad, #a4508b);
+    color: white;
+    padding: 100px 0;
+    text-align: left;
+}
+
+.header-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* زرار Get in Touch */
+.btn-primary {
+    background-color: #d1a3ff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #a4508b;
+    transform: scale(1.1);
+}
+
+/* ======== Sections Styling ======== */
+section {
+    padding: 50px 0;
+}
+
+/* خلفية رمادية للأقسام */
+.bg-light {
+    background-color: #e6e6e6;
+}
+
+/* ======== Skills & Education ======== */
+#education, #skills {
+    text-align: center;
+}
+
+h2 {
+    color: #6a0dad;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skill-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* ======== Projects ======== */
+#projects {
+    text-align: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #6a0dad;
+    font-weight: bold;
+}
+
+/* ======== Contact Section ======== */
+#contact {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #6a0dad;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #a4508b;
+}
+
+/* ======== Footer ======== */
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
